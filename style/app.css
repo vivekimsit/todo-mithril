@@ -32,3 +32,13 @@ ul.todo {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+.todo input {
+  margin-right: 10px;
+}
+
+.button-error {
+  background-color: rgb(202, 60, 60);
+  color: #fff;
+  margin-left: 10px;
+}
