@@ -1,0 +1,44 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#container {
+  width: 500px;
+  margin: 10% auto;
+  padding: 10px 16px;
+  background-color: #fafafa;
+}
+
+ul.todo {
+  list-style: none;
+  margin: 10px;
+}
+
+.todo-item.done label {
+  text-decoration: line-through;
+  color: #4a4a4a;
+}
+
+.todo li {
+  overflow: hidden;
+  line-height: 2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.todo input {
+  margin-right: 10px;
+}
+
+.button-error {
+  background-color: rgb(202, 60, 60);
+  color: #fff;
+  margin-left: 10px;
+}
